@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="31" pc="268435456" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="35" pc="268435460" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="36" pc="268435460" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="37" pc="268435546" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="38" pc="268435575" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="39" pc="268435575" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="40" pc="268435606" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="41" pc="268435637" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="42" pc="268435674" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="43" pc="268435705" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="45" pc="268435736" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="46" pc="268435780" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="48" pc="268435817" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="49" pc="268435872" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="50" pc="268435889" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="51" pc="268435908" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="52" pc="268435931" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="53" pc="268435952" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="54" pc="268436007" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="55" pc="268436030" symbol="initTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="58" pc="268436052" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="59" pc="268436056" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="60" pc="268436080" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="61" pc="268436113" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="62" pc="268436146" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="63" pc="268436179" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="64" pc="268436212" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="65" pc="268436245" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="66" pc="268436278" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="67" pc="268436311" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="69" pc="268436344" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="70" pc="268436396" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="71" pc="268436448" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="72" pc="268436500" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="73" pc="268436552" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="74" pc="268436604" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="75" pc="268436656" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="76" pc="268436708" symbol="initDisplayFuncs"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="79" pc="268436761" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="80" pc="268436765" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="81" pc="268436778" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="82" pc="268436790" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="83" pc="268436803" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="84" pc="268436815" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="89" pc="268436834" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="90" pc="268436838" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="91" pc="268436881" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="92" pc="268436910" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="93" pc="268436934" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="94" pc="268436977" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="96" pc="268437023" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="97" pc="268437066" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="99" pc="268437109" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="100" pc="268437133" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="101" pc="268437155" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="102" pc="268437177" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="103" pc="268437201" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="104" pc="268437223" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="107" pc="268437245" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="108" pc="268437294" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="109" pc="268437324" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="110" pc="268437358" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="111" pc="268437388" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="112" pc="268437422" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="113" pc="268437452" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="115" pc="268437482" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="116" pc="268437519" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="117" pc="268437556" symbol="onLayout"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="122" pc="268437560" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="124" pc="268437564" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="126" pc="268437581" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="128" pc="268437648" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="129" pc="268437665" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="132" pc="268437687" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="133" pc="268437713" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="137" pc="268437729" symbol="compute"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="142" pc="268437766" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="144" pc="268437770" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="147" pc="268437813" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="148" pc="268437837" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="149" pc="268437864" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="151" pc="268437891" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="154" pc="268437915" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="157" pc="268437935" symbol="onUpdate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="161" pc="268437956" symbol="makeTimeString"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="162" pc="268437968" symbol="makeTimeString"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="163" pc="268437999" symbol="makeTimeString"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="165" pc="268438009" symbol="makeTimeString"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="166" pc="268438048" symbol="makeTimeString"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="168" pc="268438061" symbol="makeTimeString"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="174" pc="268438108" symbol="doTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="175" pc="268438112" symbol="doTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="176" pc="268438156" symbol="doTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="177" pc="268438166" symbol="doTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="178" pc="268438205" symbol="doTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="180" pc="268438218" symbol="doTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="183" pc="268438294" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="184" pc="268438298" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="185" pc="268438298" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="187" pc="268438298" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="188" pc="268438322" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="189" pc="268438329" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="191" pc="268438339" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="192" pc="268438346" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="194" pc="268438353" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="195" pc="268438381" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="197" pc="268438399" symbol="doSpeed"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="200" pc="268438435" symbol="doDistance"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="201" pc="268438439" symbol="doDistance"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="202" pc="268438466" symbol="doDistance"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="204" pc="268438492" symbol="doDistance"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="207" pc="268438499" symbol="doCadence"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="208" pc="268438503" symbol="doCadence"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="209" pc="268438530" symbol="doCadence"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="211" pc="268438556" symbol="doCadence"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="214" pc="268438563" symbol="doHeartrate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="215" pc="268438567" symbol="doHeartrate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="216" pc="268438594" symbol="doHeartrate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="218" pc="268438620" symbol="doHeartrate"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="221" pc="268438627" symbol="doAscent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="222" pc="268438631" symbol="doAscent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="225" pc="268438655" symbol="doDescent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="226" pc="268438659" symbol="doDescent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="229" pc="268438683" symbol="doAltitude"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightView.mc" lineNum="230" pc="268438687" symbol="doAltitude"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="9" pc="268438712" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="10" pc="268438716" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="14" pc="268438737" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="17" pc="268438758" symbol="setColor"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="18" pc="268438762" symbol="setColor"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="21" pc="268438773" symbol="draw"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="23" pc="268438777" symbol="draw"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightBackground.mc" lineNum="24" pc="268438809" symbol="draw"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightApp.mc" lineNum="7" pc="268438822" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightApp.mc" lineNum="8" pc="268438826" symbol="initialize"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightApp.mc" lineNum="12" pc="268438845" symbol="onStart"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightApp.mc" lineNum="16" pc="268438850" symbol="onStop"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightApp.mc" lineNum="20" pc="268438855" symbol="getInitialView"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\NightLightApp.mc" lineNum="22" pc="268438859" symbol="getInitialView"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="3" pc="268438897" symbol="julianDay"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="5" pc="268438909" symbol="julianDay"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="8" pc="268439018" symbol="calcMeanObliquityOfEcliptic"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="10" pc="268439030" symbol="calcMeanObliquityOfEcliptic"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="11" pc="268439080" symbol="calcMeanObliquityOfEcliptic"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="14" pc="268439124" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="16" pc="268439136" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="17" pc="268439173" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="19" pc="268439193" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="21" pc="268439210" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="23" pc="268439221" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="25" pc="268439238" symbol="calcGeomMeanLongSun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="28" pc="268439242" symbol="calcObliquityCorrection"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="30" pc="268439254" symbol="calcObliquityCorrection"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="31" pc="268439269" symbol="calcObliquityCorrection"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="32" pc="268439293" symbol="calcObliquityCorrection"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="35" pc="268439340" symbol="calcEccentricityEarthOrbit"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="37" pc="268439352" symbol="calcEccentricityEarthOrbit"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="40" pc="268439389" symbol="calcGeomMeanAnomalySun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="42" pc="268439401" symbol="calcGeomMeanAnomalySun"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="45" pc="268439438" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="47" pc="268439450" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="48" pc="268439465" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="49" pc="268439480" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="50" pc="268439495" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="51" pc="268439510" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="52" pc="268439554" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="53" pc="268439561" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="54" pc="268439605" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="55" pc="268439639" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="56" pc="268439683" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="57" pc="268439727" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="58" pc="268439771" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="61" pc="268439854" symbol="calcEquationOfTime"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="64" pc="268439883" symbol="calcTimeJulianCent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="66" pc="268439895" symbol="calcTimeJulianCent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="69" pc="268439919" symbol="calcSunTrueLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="71" pc="268439931" symbol="calcSunTrueLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="72" pc="268439946" symbol="calcSunTrueLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="74" pc="268439961" symbol="calcSunTrueLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="77" pc="268439968" symbol="calcSunApparentLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="79" pc="268439980" symbol="calcSunApparentLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="81" pc="268439995" symbol="calcSunApparentLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="82" pc="268440019" symbol="calcSunApparentLong"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="85" pc="268440076" symbol="calcSunDeclination"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="87" pc="268440088" symbol="calcSunDeclination"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="88" pc="268440103" symbol="calcSunDeclination"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="90" pc="268440118" symbol="calcSunDeclination"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="91" pc="268440185" symbol="calcSunDeclination"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="94" pc="268440219" symbol="calcHourAngleSunrise"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="96" pc="268440231" symbol="calcHourAngleSunrise"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="97" pc="268440250" symbol="calcHourAngleSunrise"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="99" pc="268440269" symbol="calcHourAngleSunrise"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="102" pc="268440397" symbol="calcHourAngleSunset"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="104" pc="268440409" symbol="calcHourAngleSunset"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="105" pc="268440428" symbol="calcHourAngleSunset"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="107" pc="268440447" symbol="calcHourAngleSunset"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="110" pc="268440581" symbol="calcJDFromJulianCent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="112" pc="268440593" symbol="calcJDFromJulianCent"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="115" pc="268440617" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="117" pc="268440629" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="119" pc="268440644" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="120" pc="268440663" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="121" pc="268440682" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="122" pc="268440704" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="124" pc="268440729" symbol="calcSunEqOfCenter"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="127" pc="268440808" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="129" pc="268440820" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="132" pc="268440835" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="133" pc="268440850" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="134" pc="268440865" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="135" pc="268440882" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="136" pc="268440904" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="137" pc="268440914" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="138" pc="268440927" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="140" pc="268440962" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="141" pc="268440977" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="143" pc="268440992" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="144" pc="268441009" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="145" pc="268441031" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="146" pc="268441041" symbol="calcSunriseUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="149" pc="268441054" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="151" pc="268441066" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="154" pc="268441081" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="155" pc="268441096" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="156" pc="268441111" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="157" pc="268441128" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="158" pc="268441150" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="159" pc="268441160" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="160" pc="268441173" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="162" pc="268441208" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="163" pc="268441223" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="165" pc="268441238" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="166" pc="268441255" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="167" pc="268441277" symbol="calcSunsetUTC"/>
+<entry filename="C:\\Users\\mcrane\\workspace\\NightLight\\source\\CalcSun.mc" lineNum="168" pc="268441287" symbol="calcSunsetUTC"/>
+<entry filename="Rez" lineNum="46" pc="268441300" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="48" pc="268441312" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="49" pc="268441336" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="50" pc="268441499" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="51" pc="268441524" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="52" pc="268441576" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="53" pc="268441622" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="54" pc="268441785" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="55" pc="268441810" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="56" pc="268441862" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="57" pc="268441908" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="58" pc="268442056" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="59" pc="268442081" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="60" pc="268442127" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="61" pc="268442275" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="62" pc="268442300" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="65" pc="268442346" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="74" pc="268442404" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="76" pc="268442416" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="77" pc="268442440" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="78" pc="268442573" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="81" pc="268442706" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="90" pc="268442744" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="92" pc="268442756" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="93" pc="268442780" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="94" pc="268442913" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="97" pc="268443046" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="106" pc="268443084" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="108" pc="268443096" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="109" pc="268443120" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="110" pc="268443253" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="113" pc="268443386" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="122" pc="268443424" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="124" pc="268443436" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="125" pc="268443460" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="126" pc="268443593" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="129" pc="268443726" symbol="BottomRightLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="58" symbol="opt_func"/>
+<entry field="true" id="8388959" symbol="cadence"/>
+<entry field="true" id="77" symbol="m_funcNames"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="57" symbol="kilos"/>
+<entry field="true" id="46" symbol="title_hours"/>
+<entry id="14" method="true" symbol="makeTimeString"/>
+<entry id="38" method="true" symbol="TopLeftLayout"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="70" symbol="m_value"/>
+<entry field="true" id="8388720" symbol="hour"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="29" method="true" symbol="calcHourAngleSunset"/>
+<entry id="85" method="true" symbol="doTime"/>
+<entry field="true" id="8389138" symbol="label"/>
+<entry field="true" id="68" symbol="opt_lon"/>
+<entry field="true" id="60" symbol="opt_stop"/>
+<entry field="true" id="74" symbol="sunsetMoment"/>
+<entry id="83" method="true" symbol="initTime"/>
+<entry id="40" method="true" symbol="BottomLeftLayout"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="28" method="true" symbol="calcHourAngleSunrise"/>
+<entry id="37" method="true" symbol="MainLayout"/>
+<entry id="91" method="true" symbol="doDescent"/>
+<entry field="true" id="71" symbol="m_onTimeText"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="79" symbol="timeofday"/>
+<entry field="true" id="81" symbol="ascent"/>
+<entry id="23" method="true" symbol="calcEquationOfTime"/>
+<entry id="16" object="true" symbol="NightLightApp"/>
+<entry id="24" method="true" symbol="calcTimeJulianCent"/>
+<entry id="30" method="true" symbol="calcJDFromJulianCent"/>
+<entry field="true" id="72" symbol="m_offTimeText"/>
+<entry field="true" id="69" symbol="opt_start"/>
+<entry field="true" id="49" symbol="opt_lat"/>
+<entry field="true" id="11" symbol="g_distLabel"/>
+<entry field="true" id="8389130" symbol="mColor"/>
+<entry id="8389131" method="true" symbol="setColor"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="19" method="true" symbol="calcGeomMeanLongSun"/>
+<entry field="true" id="47" symbol="AppName"/>
+<entry field="true" id="45" symbol="kmh"/>
+<entry id="88" method="true" symbol="doCadence"/>
+<entry id="21" method="true" symbol="calcEccentricityEarthOrbit"/>
+<entry id="27" method="true" symbol="calcSunDeclination"/>
+<entry field="true" id="10" symbol="g_sunits"/>
+<entry field="true" id="75" symbol="sunriseMoment"/>
+<entry field="true" id="67" symbol="opt_func_7"/>
+<entry field="true" id="63" symbol="opt_func_6"/>
+<entry field="true" id="64" symbol="opt_func_5"/>
+<entry field="true" id="65" symbol="opt_func_4"/>
+<entry field="true" id="66" symbol="opt_func_3"/>
+<entry field="true" id="59" symbol="opt_func_2"/>
+<entry field="true" id="61" symbol="opt_func_1"/>
+<entry field="true" id="62" symbol="opt_func_0"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="18" method="true" symbol="calcMeanObliquityOfEcliptic"/>
+<entry field="true" id="78" symbol="m_currentFunc"/>
+<entry field="true" id="80" symbol="heartrate"/>
+<entry id="20" method="true" symbol="calcObliquityCorrection"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="36" symbol="LauncherIcon"/>
+<entry id="86" method="true" symbol="doSpeed"/>
+<entry field="true" id="54" symbol="functionLabel_7"/>
+<entry field="true" id="50" symbol="functionLabel_6"/>
+<entry field="true" id="51" symbol="functionLabel_5"/>
+<entry field="true" id="52" symbol="functionLabel_4"/>
+<entry field="true" id="53" symbol="functionLabel_3"/>
+<entry field="true" id="42" symbol="functionLabel_2"/>
+<entry field="true" id="43" symbol="functionLabel_1"/>
+<entry field="true" id="44" symbol="functionLabel_0"/>
+<entry field="true" id="76" symbol="m_displayFuncs"/>
+<entry field="true" id="12" symbol="g_speedLabel"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="22" method="true" symbol="calcGeomMeanAnomalySun"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="8388750" symbol="currentCadence"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8388963" symbol="altitude"/>
+<entry field="true" id="82" symbol="descent"/>
+<entry id="15" object="true" symbol="DisplayFuncs"/>
+<entry field="true" id="8388940" symbol="year"/>
+<entry id="26" method="true" symbol="calcSunApparentLong"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="55" symbol="AppVersionTitle"/>
+<entry id="39" method="true" symbol="TopRightLayout"/>
+<entry field="true" id="8388738" symbol="currentSpeed"/>
+<entry field="true" id="8388734" symbol="elapsedDistance"/>
+<entry field="true" id="8388747" symbol="currentHeartRate"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="8388958" symbol="speed"/>
+<entry field="true" id="8388939" symbol="day"/>
+<entry id="33" method="true" symbol="calcSunsetUTC"/>
+<entry id="8389338" symbol="minute"/>
+<entry field="true" id="9" symbol="g_dunits"/>
+<entry id="89" method="true" symbol="doHeartrate"/>
+<entry field="true" id="56" symbol="mph"/>
+<entry id="8389339" symbol="second"/>
+<entry field="true" id="48" symbol="miles"/>
+<entry id="32" method="true" symbol="calcSunriseUTC"/>
+<entry field="true" id="8388938" symbol="month"/>
+<entry field="true" id="8388911" symbol="distance"/>
+<entry id="87" method="true" symbol="doDistance"/>
+<entry id="35" module="true" symbol="Layouts"/>
+<entry id="41" method="true" symbol="BottomRightLayout"/>
+<entry id="17" method="true" symbol="julianDay"/>
+<entry id="31" method="true" symbol="calcSunEqOfCenter"/>
+<entry id="13" object="true" symbol="NightLightView"/>
+<entry id="84" method="true" symbol="initDisplayFuncs"/>
+<entry id="25" method="true" symbol="calcSunTrueLong"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="92" method="true" symbol="doAltitude"/>
+<entry id="34" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="73" symbol="bl"/>
+<entry id="90" method="true" symbol="doAscent"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436051" name="longitude" stackId="6" startPc="268435460"/>
+<entry endPc="268436051" name="dur" stackId="11" startPc="268435460"/>
+<entry endPc="268436051" name="now" stackId="7" startPc="268435460"/>
+<entry endPc="268436051" name="startOffset" stackId="2" startPc="268435460"/>
+<entry endPc="268436051" name="today" stackId="10" startPc="268435460"/>
+<entry endPc="268436051" name="latitude" stackId="5" startPc="268435460"/>
+<entry endPc="268436051" name="jd" stackId="8" startPc="268435460"/>
+<entry endPc="268436051" name="zeroTime" stackId="3" startPc="268435460"/>
+<entry endPc="268436051" name="stopOffset" stackId="1" startPc="268435460"/>
+<entry endPc="268436051" name="tzOffset" stackId="4" startPc="268435460"/>
+<entry endPc="268436051" name="ss" stackId="9" startPc="268435460"/>
+<entry endPc="268436760" name="funcs" stackId="1" startPc="268436056"/>
+<entry endPc="268437559" name="valueView" stackId="3" startPc="268436838"/>
+<entry endPc="268437559" name="labelView" stackId="2" startPc="268436838"/>
+<entry endPc="268437560" name="dc" stackId="1" startPc="268436834"/>
+<entry endPc="268437765" name="m_now" stackId="2" startPc="268437564"/>
+<entry endPc="268437766" name="info" stackId="1" startPc="268437560"/>
+<entry endPc="268437955" name="value" stackId="2" startPc="268437770"/>
+<entry endPc="268437956" name="dc" stackId="1" startPc="268437766"/>
+<entry endPc="268438107" name="t" stackId="2" startPc="268437968"/>
+<entry endPc="268438107" name="h" stackId="3" startPc="268437968"/>
+<entry endPc="268438108" name="d" stackId="1" startPc="268437956"/>
+<entry endPc="268438293" name="t" stackId="2" startPc="268438112"/>
+<entry endPc="268438293" name="h" stackId="3" startPc="268438112"/>
+<entry endPc="268438294" name="info" stackId="1" startPc="268438108"/>
+<entry endPc="268438434" name="u" stackId="3" startPc="268438298"/>
+<entry endPc="268438434" name="factor" stackId="2" startPc="268438298"/>
+<entry endPc="268438435" name="info" stackId="1" startPc="268438294"/>
+<entry endPc="268438499" name="info" stackId="1" startPc="268438435"/>
+<entry endPc="268438563" name="info" stackId="1" startPc="268438499"/>
+<entry endPc="268438627" name="info" stackId="1" startPc="268438563"/>
+<entry endPc="268438655" name="info" stackId="1" startPc="268438627"/>
+<entry endPc="268438683" name="info" stackId="1" startPc="268438655"/>
+<entry endPc="268438711" name="info" stackId="1" startPc="268438683"/>
+<entry endPc="268438757" name="dictionary" stackId="1" startPc="268438716"/>
+<entry endPc="268438773" name="color" stackId="1" startPc="268438758"/>
+<entry endPc="268438822" name="dc" stackId="1" startPc="268438773"/>
+<entry endPc="268438850" name="state" stackId="1" startPc="268438845"/>
+<entry endPc="268438855" name="state" stackId="1" startPc="268438850"/>
+<entry endPc="268439018" name="K" stackId="1" startPc="268438897"/>
+<entry endPc="268439018" name="I" stackId="3" startPc="268438897"/>
+<entry endPc="268439018" name="M" stackId="2" startPc="268438897"/>
+<entry endPc="268439123" name="seconds" stackId="2" startPc="268439030"/>
+<entry endPc="268439124" name="t" stackId="1" startPc="268439018"/>
+<entry endPc="268439241" name="L" stackId="2" startPc="268439136"/>
+<entry endPc="268439242" name="t" stackId="1" startPc="268439124"/>
+<entry endPc="268439339" name="omega" stackId="3" startPc="268439254"/>
+<entry endPc="268439339" name="e0" stackId="2" startPc="268439254"/>
+<entry endPc="268439340" name="t" stackId="1" startPc="268439242"/>
+<entry endPc="268439389" name="t" stackId="1" startPc="268439340"/>
+<entry endPc="268439438" name="t" stackId="1" startPc="268439389"/>
+<entry endPc="268439882" name="sin4l0" stackId="10" startPc="268439450"/>
+<entry endPc="268439882" name="Etime" stackId="12" startPc="268439450"/>
+<entry endPc="268439882" name="m" stackId="5" startPc="268439450"/>
+<entry endPc="268439882" name="l0" stackId="3" startPc="268439450"/>
+<entry endPc="268439882" name="sin2m" stackId="11" startPc="268439450"/>
+<entry endPc="268439882" name="e" stackId="4" startPc="268439450"/>
+<entry endPc="268439882" name="sin2l0" stackId="7" startPc="268439450"/>
+<entry endPc="268439882" name="y" stackId="6" startPc="268439450"/>
+<entry endPc="268439882" name="sinm" stackId="8" startPc="268439450"/>
+<entry endPc="268439882" name="epsilon" stackId="2" startPc="268439450"/>
+<entry endPc="268439882" name="cos2l0" stackId="9" startPc="268439450"/>
+<entry endPc="268439883" name="t" stackId="1" startPc="268439438"/>
+<entry endPc="268439919" name="jd" stackId="1" startPc="268439883"/>
+<entry endPc="268439967" name="l0" stackId="2" startPc="268439931"/>
+<entry endPc="268439967" name="c" stackId="3" startPc="268439931"/>
+<entry endPc="268439968" name="t" stackId="1" startPc="268439919"/>
+<entry endPc="268440075" name="o" stackId="2" startPc="268439980"/>
+<entry endPc="268440075" name="omega" stackId="3" startPc="268439980"/>
+<entry endPc="268440076" name="t" stackId="1" startPc="268439968"/>
+<entry endPc="268440218" name="lambda" stackId="3" startPc="268440088"/>
+<entry endPc="268440218" name="e" stackId="2" startPc="268440088"/>
+<entry endPc="268440218" name="sint" stackId="4" startPc="268440088"/>
+<entry endPc="268440219" name="t" stackId="1" startPc="268440076"/>
+<entry endPc="268440396" name="sdRad" stackId="4" startPc="268440231"/>
+<entry endPc="268440396" name="latRad" stackId="3" startPc="268440231"/>
+<entry endPc="268440397" name="solarDec" stackId="2" startPc="268440219"/>
+<entry endPc="268440397" name="lat" stackId="1" startPc="268440219"/>
+<entry endPc="268440580" name="sdRad" stackId="4" startPc="268440409"/>
+<entry endPc="268440580" name="latRad" stackId="3" startPc="268440409"/>
+<entry endPc="268440581" name="solarDec" stackId="2" startPc="268440397"/>
+<entry endPc="268440581" name="lat" stackId="1" startPc="268440397"/>
+<entry endPc="268440617" name="t" stackId="1" startPc="268440581"/>
+<entry endPc="268440807" name="m" stackId="2" startPc="268440629"/>
+<entry endPc="268440807" name="sin2m" stackId="5" startPc="268440629"/>
+<entry endPc="268440807" name="mrad" stackId="3" startPc="268440629"/>
+<entry endPc="268440807" name="sin3m" stackId="6" startPc="268440629"/>
+<entry endPc="268440807" name="sinm" stackId="4" startPc="268440629"/>
+<entry endPc="268440808" name="t" stackId="1" startPc="268440617"/>
+<entry endPc="268441053" name="hourAngle" stackId="7" startPc="268440820"/>
+<entry endPc="268441053" name="eqTime" stackId="5" startPc="268440820"/>
+<entry endPc="268441053" name="newt" stackId="11" startPc="268440820"/>
+<entry endPc="268441053" name="solarDec" stackId="6" startPc="268440820"/>
+<entry endPc="268441053" name="t" stackId="4" startPc="268440820"/>
+<entry endPc="268441053" name="timeUTC" stackId="10" startPc="268440820"/>
+<entry endPc="268441053" name="timeDiff" stackId="9" startPc="268440820"/>
+<entry endPc="268441053" name="delta" stackId="8" startPc="268440820"/>
+<entry endPc="268441054" name="JD" stackId="1" startPc="268440808"/>
+<entry endPc="268441054" name="longitude" stackId="3" startPc="268440808"/>
+<entry endPc="268441054" name="latitude" stackId="2" startPc="268440808"/>
+<entry endPc="268441299" name="hourAngle" stackId="7" startPc="268441066"/>
+<entry endPc="268441299" name="eqTime" stackId="5" startPc="268441066"/>
+<entry endPc="268441299" name="newt" stackId="11" startPc="268441066"/>
+<entry endPc="268441299" name="solarDec" stackId="6" startPc="268441066"/>
+<entry endPc="268441299" name="t" stackId="4" startPc="268441066"/>
+<entry endPc="268441299" name="timeUTC" stackId="10" startPc="268441066"/>
+<entry endPc="268441299" name="timeDiff" stackId="9" startPc="268441066"/>
+<entry endPc="268441299" name="delta" stackId="8" startPc="268441066"/>
+<entry endPc="268441300" name="JD" stackId="1" startPc="268441054"/>
+<entry endPc="268441300" name="longitude" stackId="3" startPc="268441054"/>
+<entry endPc="268441300" name="latitude" stackId="2" startPc="268441054"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_onTimeInfo_fontHeight" stackId="8" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_onTimeInfo" stackId="7" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_offTimeInfo" stackId="9" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_custom_drawable_4AQHPPK1EK3SI7NQ4I8X" stackId="2" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_offTimeInfo_fontHeight" stackId="10" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441312"/>
+<entry endPc="268442403" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268441312"/>
+<entry endPc="268442404" name="dc" stackId="1" startPc="268441300"/>
+<entry endPc="268442743" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442416"/>
+<entry endPc="268442743" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442416"/>
+<entry endPc="268442743" name="rez_cmp_local_custom_drawable_QG6W6NSK8J2M84S8LW8J" stackId="2" startPc="268442416"/>
+<entry endPc="268442744" name="dc" stackId="1" startPc="268442404"/>
+<entry endPc="268443083" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442756"/>
+<entry endPc="268443083" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442756"/>
+<entry endPc="268443083" name="rez_cmp_local_custom_drawable_ZU2JH75IMYJU56R5ZBXM" stackId="2" startPc="268442756"/>
+<entry endPc="268443084" name="dc" stackId="1" startPc="268442744"/>
+<entry endPc="268443423" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443096"/>
+<entry endPc="268443423" name="rez_cmp_local_custom_drawable_6XYYN86KW3DW3QGKDQJ5" stackId="2" startPc="268443096"/>
+<entry endPc="268443423" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443096"/>
+<entry endPc="268443424" name="dc" stackId="1" startPc="268443084"/>
+<entry endPc="268443763" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443436"/>
+<entry endPc="268443763" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443436"/>
+<entry endPc="268443763" name="rez_cmp_local_custom_drawable_G6CE0VTXXTISTCOR7I57" stackId="2" startPc="268443436"/>
+<entry endPc="268443764" name="dc" stackId="1" startPc="268443424"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initTime" parent="NightLightView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initDisplayFuncs" parent="NightLightView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="NightLightView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="NightLightView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute" parent="NightLightView">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="NightLightView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeTimeString">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doTime" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doSpeed" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doDistance" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doCadence" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doHeartrate" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doAscent" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doDescent" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="doAltitude" parent="DisplayFuncs">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setColor" parent="Background">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="NightLightApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="NightLightApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="NightLightApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="NightLightApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="julianDay">
+<param id="K"/>
+<param id="M"/>
+<param id="I"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcMeanObliquityOfEcliptic">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcGeomMeanLongSun">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcObliquityCorrection">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcEccentricityEarthOrbit">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcGeomMeanAnomalySun">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcEquationOfTime">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcTimeJulianCent">
+<param id="jd"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcSunTrueLong">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcSunApparentLong">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcSunDeclination">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcHourAngleSunrise">
+<param id="lat"/>
+<param id="solarDec"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcHourAngleSunset">
+<param id="lat"/>
+<param id="solarDec"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcJDFromJulianCent">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcSunEqOfCenter">
+<param id="t"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcSunriseUTC">
+<param id="JD"/>
+<param id="latitude"/>
+<param id="longitude"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcSunsetUTC">
+<param id="JD"/>
+<param id="latitude"/>
+<param id="longitude"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="TopLeftLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="TopRightLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="BottomLeftLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="BottomRightLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="374" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="445" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="524" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="563" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="594" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="625" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="656" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="727" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="990" parentId="globals" symbolId="NightLightApp" type="class"/>
+<dataEntry offset="1061" parentId="globals" symbolId="NightLightView" type="class"/>
+<dataEntry offset="1284" parentId="globals" symbolId="DisplayFuncs" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

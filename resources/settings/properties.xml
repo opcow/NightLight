@@ -1,0 +1,68 @@
+<resources>
+
+    <properties>
+	    <property id="appVersion" type="string">0.1.3</property>
+        <property id="PROP_START_OFFSET" type="number">0</property>
+        <property id="PROP_STOP_OFFSET" type="number">0</property>
+        <property id="PROP_LATITUDE" type="float">50.8964824</property>
+        <property id="PROP_LONGITUDE" type="float">4.9082729</property>
+        <property id="PROP_FUNC" type="number">0</property>
+    </properties>
+
+    <strings>
+       <string id="AppVersionTitle">NightLight</string>
+       <string id="title_hours">Start and Stop Times</string>
+       <string id="opt_stop">Sunrise Offset</string>
+       <string id="opt_start">Sunset Offset</string>
+       <string id="opt_lat">Latitude</string>
+       <string id="opt_lon">Longitude (positive numbers)</string>
+       <string id="opt_func">Display Function</string>
+       <string id="opt_func_0">Clock</string>
+       <string id="opt_func_1">Speed</string>
+       <string id="opt_func_2">Distance</string>
+       <string id="opt_func_3">Cadence</string>
+       <string id="opt_func_4">Heart Rate</string>
+       <string id="opt_func_5">Ascent</string>
+       <string id="opt_func_6">Descent</string>
+       <string id="opt_func_7">Altitude</string>
+    </strings>
+    
+    <settings>
+	    <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersionTitle" >
+    	    <settingConfig type="alphaNumeric" readonly="true" />
+    	</setting>
+
+        <setting propertyKey="@Properties.PROP_START_OFFSET" title="@Strings.opt_start">
+            <settingConfig type="numeric" min="-120" max="120">
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.PROP_STOP_OFFSET" title="@Strings.opt_stop">
+            <settingConfig type="numeric" min="-120" max="120">
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.PROP_LATITUDE" title="@Strings.opt_lat">
+            <settingConfig type="numeric" min="-90" max="90">
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.PROP_LONGITUDE" title="@Strings.opt_lon">
+            <settingConfig type="numeric" min="0" max="360">
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.PROP_FUNC" title="@Strings.opt_func">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.opt_func_0</listEntry>
+            <listEntry value="1">@Strings.opt_func_1</listEntry>
+            <listEntry value="2">@Strings.opt_func_2</listEntry>
+            <listEntry value="3">@Strings.opt_func_3</listEntry>
+            <listEntry value="4">@Strings.opt_func_4</listEntry>
+            <listEntry value="5">@Strings.opt_func_5</listEntry>
+            <listEntry value="6">@Strings.opt_func_6</listEntry>
+            <listEntry value="7">@Strings.opt_func_7</listEntry>
+        </settingConfig>
+        </setting>
+    </settings>
+   
+</resources>
+
+<!--            	<listEntry value="1">Rez.Strings.opt_stop</listEntry>
+            	<listEntry value="2">Rez.Strings.opt_start</listEntry> -->

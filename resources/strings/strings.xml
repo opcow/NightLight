@@ -1,0 +1,17 @@
+<strings>
+    <string id="AppName">NightLight</string>
+
+    <string id="label">My Value</string>
+    <string id="kmh"> K/H</string>
+    <string id="mph"> M/H</string>
+    <string id="kilos"> K/H</string>
+    <string id="miles"> M/H</string>
+    <string id="functionLabel_0">clock</string>
+    <string id="functionLabel_1">speed</string>
+    <string id="functionLabel_2">distance</string>
+    <string id="functionLabel_3">cadence</string>
+    <string id="functionLabel_4">heart rate</string>
+    <string id="functionLabel_5">ascent</string>
+    <string id="functionLabel_6">descent</string>
+    <string id="functionLabel_7">altitude</string>
+</strings>
