@@ -1,3 +1,5 @@
+// Copyright (GPL) 2017   Mitch Crane mitch.crane@gmail.com
+
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.Time as T;

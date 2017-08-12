@@ -1,3 +1,8 @@
+/* Copyright (GPL) 2004   Mike Chirico mchirico@comcast.net
+
+   Program adapted by mitch.crane@gmail.com
+*/
+
 using Toybox.Math as Math;
 
 function julianDay(K, M, I)

@@ -1,3 +1,5 @@
+// Copyright (GPL) 2017   Mitch Crane mitch.crane@gmail.com
+
 using Toybox.Application as App;
 
 class NightLightApp extends App.AppBase {
