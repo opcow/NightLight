@@ -7,3 +7,5 @@ A data field for the Garmin Edge series that will turn the backlight on at sunse
 
 ## Note:
 You will need to use the settings dialog to enter your longitude and lattitude before using this data field, as data fields can't access postition data. =(
+
+Adapted from code found [here](http://souptonuts.sourceforge.net/code/sunrise.c.html).
