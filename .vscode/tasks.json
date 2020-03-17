@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "monkeyc -f ${workspaceFolder}\\monkey.jungle -o ${workspaceFolder}\\bin\\${workspaceFolderBasename}.prg -d edge_520 -y ${env:HOMEDRIVE}${env:HOMEPATH}\\developer_key.der",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Simulate",
+            "type": "shell",
+            "command": "pwsh ${workspaceFolder}\\bin\\simulate.ps1",
+            "args": [
+                "bin\\${workspaceFolderBasename}.prg",
+                "edge_520"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

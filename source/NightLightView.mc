@@ -7,17 +7,22 @@ using Toybox.Time.Gregorian as Greg;
 using Toybox.Application as App;
 using Toybox.Math as Math;
 using Toybox.System as Sys;
+using Toybox.Position;
 
 var g_dunits, g_sunits, g_distLabel, g_speedLabel;
+var app = App.getApp();
 
 class NightLightView extends Ui.DataField {
 
-    hidden var m_value;
-    hidden var m_onTimeText, m_offTimeText;
-	hidden var bl, sunsetMoment, sunriseMoment;
-	hidden var m_displayFuncs = new [8];
-	hidden var m_funcNames = new [8];
-	hidden var m_currentFunc = 0;
+    hidden var mValue;
+    hidden var mOnTimeText, m_offTimeText;
+	hidden var mBacklightCounter, mSunsetMoment, mSunriseMoment;
+	hidden var mDisplayFuncs = new [8];
+	hidden var mFuncNames = new [8];
+	hidden var mCurrentFunc = 0;
+	var mLastCheck;
+	var mThrottle = 10;
+
 	
 	enum {
 		timeofday,
@@ -30,58 +35,64 @@ class NightLightView extends Ui.DataField {
 		altitude
 	}
 
-	function initTime () {
-
+	function initInfo() {
 		//Toybox.Position.enableLocationEvents(Position.LOCATION_ONE_SHOT, method(:onPosition));
+		var today = T.today();
+		var dawn = new T.Duration(6 * 60 * 60);
+		var dusk = new T.Duration(18 * 60 * 60);
+		mSunriseMoment = today.add(dawn);
+		mSunsetMoment = today.add(dusk);
+		mLastCheck = T.now();
+	}
 
+	function setSunInfo() {
 		var stopOffset, startOffset; //in minutes
 		var zeroTime = { :second => 0, :hour => 0, :minute => 0, :year => 0, :month => 0, :day => 0 };
 		var tzOffset = Sys.getClockTime().timeZoneOffset / 60; //for converting to local time
-		var latitude, longitude;
+
 		stopOffset = App.getApp().getProperty("PROP_STOP_OFFSET");
 		startOffset = App.getApp().getProperty("PROP_START_OFFSET");
-		m_currentFunc = App.getApp().getProperty("PROP_FUNC");
-		latitude = App.getApp().getProperty("PROP_LATITUDE");
-		longitude = App.getApp().getProperty("PROP_LONGITUDE");
-		
+		mCurrentFunc = App.getApp().getProperty("PROP_FUNC");
+
 		var now = Greg.info(T.now(), T.FORMAT_SHORT);
         var jd = julianDay(now.year, now.month, now.day);
         
-        var ss = Math.round(calcSunsetUTC(jd, latitude.toDouble(), longitude.toDouble()) + tzOffset);
+        var ss = Math.round(calcSunsetUTC(jd, $.gLatitude.toDouble(), $.gLongitude.toDouble()) + tzOffset);
         var today = T.today();
         var dur = Greg.duration(zeroTime);
         dur.initialize((ss + startOffset) * 60);
-        sunsetMoment = today.add(dur);
-        ss = Math.round(calcSunriseUTC(jd, latitude.toDouble(), longitude.toDouble()) + tzOffset);
+        mSunsetMoment = today.add(dur);
+
+        ss = Math.round(calcSunriseUTC(jd, $.gLatitude.toDouble(), $.gLongitude.toDouble()) + tzOffset);
         dur.initialize((ss + stopOffset) * 60);
-        sunriseMoment = today.add(dur);
+        mSunriseMoment = today.add(dur);
 	}
 
 	function initDisplayFuncs() {
 		var funcs = new DisplayFuncs();
-        m_displayFuncs[timeofday] = funcs.method(:doTime);
-        m_displayFuncs[speed] = funcs.method(:doSpeed);
-        m_displayFuncs[distance] = funcs.method(:doDistance);
-        m_displayFuncs[cadence] = funcs.method(:doCadence);
-        m_displayFuncs[heartrate] = funcs.method(:doHeartrate);
-        m_displayFuncs[ascent] = funcs.method(:doAscent);
-        m_displayFuncs[descent] = funcs.method(:doDescent);
-        m_displayFuncs[altitude] = funcs.method(:doAltitude);
+        mDisplayFuncs[timeofday] = funcs.method(:doTime);
+        mDisplayFuncs[speed] = funcs.method(:doSpeed);
+        mDisplayFuncs[distance] = funcs.method(:doDistance);
+        mDisplayFuncs[cadence] = funcs.method(:doCadence);
+        mDisplayFuncs[heartrate] = funcs.method(:doHeartrate);
+        mDisplayFuncs[ascent] = funcs.method(:doAscent);
+        mDisplayFuncs[descent] = funcs.method(:doDescent);
+        mDisplayFuncs[altitude] = funcs.method(:doAltitude);
         
-        m_funcNames[timeofday] = Ui.loadResource(Rez.Strings.functionLabel_0);
-        m_funcNames[speed] = Ui.loadResource(Rez.Strings.functionLabel_1);
-        m_funcNames[distance] = Ui.loadResource(Rez.Strings.functionLabel_2);
-        m_funcNames[cadence] = Ui.loadResource(Rez.Strings.functionLabel_3);
-        m_funcNames[heartrate] = Ui.loadResource(Rez.Strings.functionLabel_4);
-        m_funcNames[ascent] = Ui.loadResource(Rez.Strings.functionLabel_5);
-        m_funcNames[descent] = Ui.loadResource(Rez.Strings.functionLabel_6);
-        m_funcNames[altitude] = Ui.loadResource(Rez.Strings.functionLabel_7);
+        mFuncNames[timeofday] = Ui.loadResource(Rez.Strings.functionLabel_0);
+        mFuncNames[speed] = Ui.loadResource(Rez.Strings.functionLabel_1);
+        mFuncNames[distance] = Ui.loadResource(Rez.Strings.functionLabel_2);
+        mFuncNames[cadence] = Ui.loadResource(Rez.Strings.functionLabel_3);
+        mFuncNames[heartrate] = Ui.loadResource(Rez.Strings.functionLabel_4);
+        mFuncNames[ascent] = Ui.loadResource(Rez.Strings.functionLabel_5);
+        mFuncNames[descent] = Ui.loadResource(Rez.Strings.functionLabel_6);
+        mFuncNames[altitude] = Ui.loadResource(Rez.Strings.functionLabel_7);
 	}
 	
     function initialize() {
-        m_value = 0.0f;
-        initTime();
-        bl = 9;
+        mValue = 0.0f;
+        initInfo();
+        mBacklightCounter = 9;
         initDisplayFuncs();
         DataField.initialize();
     }
@@ -106,16 +117,16 @@ class NightLightView extends Ui.DataField {
         valueView.locX = valueView.locX + 14;
 
         //View.findDrawableById("label").setText(Rez.Strings.label);
-        View.findDrawableById("label").setText(m_funcNames[m_currentFunc]);
-        m_onTimeText = View.findDrawableById("onTimeInfo");
-        m_onTimeText.locY = m_onTimeText.locY + 2;
+        View.findDrawableById("label").setText(mFuncNames[mCurrentFunc]);
+        mOnTimeText = View.findDrawableById("onTimeInfo");
+        mOnTimeText.locY = mOnTimeText.locY + 2;
         m_offTimeText = View.findDrawableById("offTimeInfo");
         m_offTimeText.locY = m_offTimeText.locY + 16;
-        m_onTimeText.setBackgroundColor(Gfx.COLOR_BLACK);
+        mOnTimeText.setBackgroundColor(Gfx.COLOR_BLACK);
         m_offTimeText.setBackgroundColor(Gfx.COLOR_WHITE);
 
-        m_onTimeText.setText(makeTimeString(sunsetMoment));
-        m_offTimeText.setText(makeTimeString(sunriseMoment));
+        mOnTimeText.setText(makeTimeString(mSunsetMoment));
+        m_offTimeText.setText(makeTimeString(mSunriseMoment));
         return true;
     }
 
@@ -123,20 +134,35 @@ class NightLightView extends Ui.DataField {
     // information. Calculate a value and save it locally in this method.
     function compute(info) {
     
-        var m_now = T.now();
-        // Sys.println(makeTimeString(m_now) + "  " + makeTimeString(sunriseMoment));
-        if (info.timerState != 0 && (sunsetMoment.lessThan(m_now) || sunriseMoment.greaterThan(m_now)))
+        var mNow = T.now();
+		var delta = mNow.subtract(mLastCheck).value();
+		if (mThrottle <= delta) {
+			var info = getLoc();
+			if (info[2] >= Position.QUALITY_USABLE) {
+				$.gLatitude = info[0];
+				$.gLongitude = info[1];
+				setSunInfo();
+		        mOnTimeText.setText(makeTimeString(mSunsetMoment));
+	    	    m_offTimeText.setText(makeTimeString(mSunriseMoment));
+				mThrottle = 300; // only update every 5 minutes after getting location 
+			} else {
+				mThrottle = 30; // try every 30 secs to get usable accuracy
+			}
+			mLastCheck = T.now();
+		} 
+
+        if (info.timerState != 0 && (mSunsetMoment.lessThan(mNow) || mSunriseMoment.greaterThan(mNow)))
         {
-	        if (bl <= 9) {
-    	    	bl++;
+	        if (mBacklightCounter <= 9) {
+    	    	mBacklightCounter++;
         	}
         	else {
                 Toybox.Attention.backlight(true);
-                bl = 0;
+                mBacklightCounter = 0;
         	}
         }    
         // See Activity.Info in the documentation for available information.
-        m_value = m_displayFuncs[m_currentFunc].invoke(info);
+        mValue = mDisplayFuncs[mCurrentFunc].invoke(info);
     }
 
     // Display the value you computed here. This will be called
@@ -152,13 +178,29 @@ class NightLightView extends Ui.DataField {
         } else {
             value.setColor(Gfx.COLOR_BLACK);
         }
-        //value.setText(m_value.format("%.2f"));
-		value.setText(m_value);
+        //value.setText(mValue.format("%.2f"));
+		value.setText(mValue);
 		
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
     }
 }
+
+function getLoc() {
+	var info = Position.getInfo();
+	var loc = info.position.toDegrees();
+	if (loc[1] <= 0) {
+		loc[1] = -1 * loc[1];
+	} else {
+		loc[1] = 360-loc[1];
+	}
+	return [loc[0], loc[1], info.accuracy];
+}
+
+function printLoc() {
+	Sys.println("Posistion: " + $.gLatitude + ", " + $.gLongitude);
+}
+
 
 function makeTimeString(d) {
 	var t = Greg.info(d, T.FORMAT_SHORT);

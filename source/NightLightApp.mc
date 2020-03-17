@@ -1,6 +1,11 @@
 // Copyright (GPL) 2017   Mitch Crane mitch.crane@gmail.com
 
 using Toybox.Application as App;
+using Toybox.Background;
+using Toybox.WatchUi as Ui;
+
+var gLatitude = 0;
+var gLongitude = 0;
 
 class NightLightApp extends App.AppBase {
 
@@ -20,13 +25,6 @@ class NightLightApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-    	//m_view = new NightLightView();
-        return [ new NightLightView() ];
+        return [ new NightLightView()];
     }
-    
-//   function onSettingsChanged() {
-//    	m_view.method(:setFunctionLabel).invoke();
-//    	m_view.method(:initialize).invoke();
-//    }
-
 }
