@@ -6,21 +6,37 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "monkeyc -f ${workspaceFolder}\\monkey.jungle -o ${workspaceFolder}\\bin\\${workspaceFolderBasename}.prg -d edge_520 -y ${env:HOMEDRIVE}${env:HOMEPATH}\\developer_key.der",
+            "command": "monkeyc",
+            "args": [
+                "-f",
+                "${workspaceFolder}\\monkey.jungle",
+                "-o",
+                "${workspaceFolder}\\bin\\${workspaceFolderBasename}.prg",
+                "-d",
+                "edge_520",
+                "-y",
+                "${env:HOMEDRIVE}${env:HOMEPATH}\\developer_key.der"
+
+
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
         },
         {
-            "label": "Simulate",
+            "label": "simulate",
             "type": "shell",
-            "command": "pwsh ${workspaceFolder}\\bin\\simulate.ps1",
+            "command": "pwsh",
             "args": [
-                "bin\\${workspaceFolderBasename}.prg",
+                "${workspaceFolder}\\simulate.ps1",
+                ".\\bin\\${workspaceFolderBasename}.prg",
                 "edge_520"
             ],
-            "problemMatcher": []
+            "group":{
+                "kind": "test",
+                "isDefault": true
+            }
         }
     ]
 }

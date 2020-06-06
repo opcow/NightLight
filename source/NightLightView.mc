@@ -8,6 +8,7 @@ using Toybox.Application as App;
 using Toybox.Math as Math;
 using Toybox.System as Sys;
 using Toybox.Position;
+using Toybox.Test;
 
 var g_dunits, g_sunits, g_distLabel, g_speedLabel;
 var app = App.getApp();
@@ -15,7 +16,7 @@ var app = App.getApp();
 class NightLightView extends Ui.DataField {
 
     hidden var mValue;
-    hidden var mOnTimeText, m_offTimeText;
+    hidden var m_onTimeText, m_offTimeText;
 	hidden var mBacklightCounter, mSunsetMoment, mSunriseMoment;
 	hidden var mDisplayFuncs = new [8];
 	hidden var mFuncNames = new [8];
@@ -51,8 +52,21 @@ class NightLightView extends Ui.DataField {
 		var tzOffset = Sys.getClockTime().timeZoneOffset / 60; //for converting to local time
 
 		stopOffset = App.getApp().getProperty("PROP_STOP_OFFSET");
+		if (stopOffset == null) {
+			stopOffset = -10;
+			App.getApp().setProperty("PROP_STOP_OFFSET", stopOffset);
+		}
 		startOffset = App.getApp().getProperty("PROP_START_OFFSET");
+		if (startOffset == null) {
+			startOffset = 10;
+			App.getApp().setProperty("PROP_START_OFFSET", startOffset);
+		}
 		mCurrentFunc = App.getApp().getProperty("PROP_FUNC");
+		if (mCurrentFunc == null) {
+			mCurrentFunc = 0;
+			App.getApp().setProperty("PROP_FUNC", mCurrentFunc);
+		}
+
 
 		var now = Greg.info(T.now(), T.FORMAT_SHORT);
         var jd = julianDay(now.year, now.month, now.day);
@@ -90,7 +104,7 @@ class NightLightView extends Ui.DataField {
 	}
 	
     function initialize() {
-        mValue = 0.0f;
+        mValue = " ";
         initInfo();
         mBacklightCounter = 9;
         initDisplayFuncs();
@@ -118,19 +132,19 @@ class NightLightView extends Ui.DataField {
 
         //View.findDrawableById("label").setText(Rez.Strings.label);
         View.findDrawableById("label").setText(mFuncNames[mCurrentFunc]);
-        mOnTimeText = View.findDrawableById("onTimeInfo");
-        mOnTimeText.locY = mOnTimeText.locY + 2;
+        m_onTimeText = View.findDrawableById("onTimeInfo");
+        m_onTimeText.locY = m_onTimeText.locY + 2;
         m_offTimeText = View.findDrawableById("offTimeInfo");
         m_offTimeText.locY = m_offTimeText.locY + 16;
-        mOnTimeText.setBackgroundColor(Gfx.COLOR_BLACK);
+        m_onTimeText.setBackgroundColor(Gfx.COLOR_BLACK);
         m_offTimeText.setBackgroundColor(Gfx.COLOR_WHITE);
 
-        mOnTimeText.setText(makeTimeString(mSunsetMoment));
+        m_onTimeText.setText(makeTimeString(mSunsetMoment));
         m_offTimeText.setText(makeTimeString(mSunriseMoment));
         return true;
     }
 
-    // The given info object contains all the current workout
+	// The given info object contains all the current workout
     // information. Calculate a value and save it locally in this method.
     function compute(info) {
     
@@ -142,7 +156,7 @@ class NightLightView extends Ui.DataField {
 				$.gLatitude = info[0];
 				$.gLongitude = info[1];
 				setSunInfo();
-		        mOnTimeText.setText(makeTimeString(mSunsetMoment));
+		        m_onTimeText.setText(makeTimeString(mSunsetMoment));
 	    	    m_offTimeText.setText(makeTimeString(mSunriseMoment));
 				mThrottle = 300; // only update every 5 minutes after getting location 
 			} else {
@@ -173,14 +187,15 @@ class NightLightView extends Ui.DataField {
 
         // Set the foreground color and value
         var value = View.findDrawableById("value");
-        if (getBackgroundColor() == Gfx.COLOR_BLACK) {
-            value.setColor(Gfx.COLOR_WHITE);
-        } else {
-            value.setColor(Gfx.COLOR_BLACK);
-        }
-        //value.setText(mValue.format("%.2f"));
-		value.setText(mValue);
-		
+        if (value != null && mValue != null) {
+	        if (getBackgroundColor() == Gfx.COLOR_BLACK) {
+	            value.setColor(Gfx.COLOR_WHITE);
+	        } else {
+	            value.setColor(Gfx.COLOR_BLACK);
+	        }
+			value.setText(mValue);
+		}
+
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
     }
